@@ -1,18 +1,70 @@
 body{
     font-family: Garamond;
+    font-size: 4ch;
+    height: 500vh;
+}
+*{
+    margin: 0;
+    padding: 0;
 }
 @font-face{
     font-family: Garamond;
     src: url(../fonts/Garamond\ Regular.ttf);
 }
+.mediaico{
+    background-position: center;
+    background-size: cover;
+}
+.ico1{
+    background-image: url(../ico/twitter-128.png);
+}
+.ico2{
+    background-image: url(../ico/facebook-128.png);
+}
+.ico3{
+    background-image: url(../ico/instagram-2-128.png);
+}
+.ico4{
+    background-image: url(../ico/youtube-128.png);
+}
+.ico5{
+    background-image: url(../ico/gmail-128.png);
+}
 header{
+    width: 100%;
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 8vh;
 }
 nav{
     width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.n-tittle{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.n-btn{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 1.5ch;
+}
+.n-smedia{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.m-btn{
+    display: block;
+    width: 3vh;
+    height: 3vh;
 }
