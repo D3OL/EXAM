@@ -38,6 +38,7 @@ header{
     justify-content: center;
     align-items: center;
     height: 8vh;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.336);
 }
 nav{
     width: 90%;
