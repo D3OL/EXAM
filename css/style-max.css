@@ -53,7 +53,7 @@ body{
     background-image: url(../ico/face-48.png);
 }
 .feature-ico-6{
-    background-image: url(../ico/airplane-48.png);
+    background-image: url(../ico/genius-48.png);
 }
 .card-img-1{
     background-image: url(../img/camp-fire.jpg);
@@ -297,5 +297,89 @@ nav{
 .feature-6{
     grid-area: 2 / 3 / 3 / 4;
     border-left: 2px solid grey;
+}
+#write{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.write-block{
+    height: 135vh;
+    width: 80%;
+}
+.write-grid{
+    height: 135vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5% 5% 15% 5% 5% 5% 55% 10%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-size: 1em;
+}
+.write-grid > div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.write-input{
+    font-size: 1em;
+    width: 90%;
+    height: 80%;
+}
+.write-input-l{
+    height: 80%;
+}
+.write-area-1{
+    grid-area: 1 / 1 / 2 / 2; 
+}
+.write-area-2{
+    grid-area: 1 / 2 / 2 / 3; 
+}
+.write-area-3{
+    grid-area: 1 / 3 / 2 / 4; 
+}
+.write-area-4{
+    grid-area: 2 / 1 / 3 / 2; 
+}
+.write-area-5{
+    grid-area: 2 / 2 / 3 / 3; 
+}
+.write-area-6{
+    grid-area: 2 / 3 / 3 / 4; 
+}
+.write-area-7{
+    grid-area: 3 / 1 / 4 / 4; 
+}
+.write-area-8{
+    grid-area: 4 / 1 / 5 / 2; 
+}
+.write-area-9{
+    grid-area: 5 / 1 / 6 / 4; 
+}
+.write-area-10{
+    grid-area: 6 / 1 / 7 / 2; 
+}
+.write-area-11{
+    grid-area: 7 / 1 / 8 / 4; 
+}
+.write-area-12{
+    grid-area: 8 / 1 / 9 / 4; 
+}
+.write-area-7{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.remember-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    font-size: 1em;
 }
     
