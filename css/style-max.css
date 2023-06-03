@@ -1,7 +1,7 @@
 body{
     font-family: Garamond;
     font-size: 4ch;
-    height: 500vh;
+    height: 700vh;
 }
 *{
     -ms-overflow-style: none;
@@ -149,4 +149,18 @@ nav{
 .card-img-3{
     width: 30%;
     height: 100%;
+}
+#gallery{
+    position: relative;
+    top: 1%;
+    height: 100vh;
+}
+#section-header{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#carousel-galery{
+    
 }
