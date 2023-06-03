@@ -52,6 +52,8 @@ header{
     align-items: center;
     height: 8vh;
     border-bottom: 1px solid rgba(128, 128, 128, 0.336);
+    background-color: white;
+    z-index: 1;
 }
 nav{
     width: 90%;
@@ -96,10 +98,18 @@ nav{
 .card-1{
 
 }
-.card-txt-1{
-    width: 30%;
+.card-text-1{
+    box-sizing: border-box;
+    text-align: start;
+    width: 50%;
+    padding: 5%;
 }
 .card-img-1{
     width: 50%;
     height: 100%;
+}
+.c-btn{
+    color: grey;
+    padding: 3%;
+    font-size: 2ch;
 }
