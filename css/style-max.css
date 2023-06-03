@@ -89,7 +89,7 @@ nav{
 #information{
     position: relative;
     top: 8vh;
-    height: 200vh;
+    height: 210vh;
 }
 .card{
     display: flex;
@@ -112,7 +112,7 @@ nav{
 }
 .c-btn{
     color: grey;
-    padding: 3%;
+    padding: 2.5%;
     font-size: 3vh;
 }
 .card-2{
