@@ -37,6 +37,24 @@ body{
 .ico5{
     background-image: url(../ico/gmail-128.png);
 }
+.feature-ico-1{
+    background-image: url(../ico/airplane-48.png);
+}
+.feature-ico-2{
+    background-image: url(../ico/map_marker-48.png);
+}
+.feature-ico-3{
+    background-image: url(../ico/movie-48.png);
+}
+.feature-ico-4{
+    background-image: url(../ico/alarm_clock-48.png);
+}
+.feature-ico-5{
+    background-image: url(../ico/face-48.png);
+}
+.feature-ico-6{
+    background-image: url(../ico/airplane-48.png);
+}
 .card-img-1{
     background-image: url(../img/camp-fire.jpg);
 }
@@ -162,12 +180,12 @@ nav{
     width: 30%;
     height: 100%;
 }
-#gallery{
+#galery{
     position: relative;
     top: 1%;
     height: 60vh;
 }
-#section-header{
+.section-header{
     height: 15vh;
     display: flex;
     justify-content: center;
@@ -224,3 +242,60 @@ nav{
     opacity: 1;
     background-color: rgba(240, 248, 255, 0.226);
 }
+#features{
+    position: relative;
+    top: 1%;
+    height: 150vh;
+}
+.features-block{
+    display: flex;
+    justify-content: center;
+
+}
+.feature-ico{
+    width: 15%;
+    height: 15%;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15%;
+    text-align: center;
+}
+.features-grid{
+    height: 145vh;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(2, 33%);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.feature-1{
+    grid-area: 1 / 1 / 2 / 2;
+    border-bottom: 2px solid grey;
+}
+.feature-2{
+    grid-area: 1 / 2 / 2 / 3;
+    border-left: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+.feature-3{
+    grid-area: 1 / 3 / 2 / 4;
+    border-left: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+.feature-4{
+    grid-area: 2 / 1 / 3 / 2;
+}
+.feature-5{
+    grid-area: 2 / 2 / 3 / 3;
+    border-left: 2px solid grey;
+}
+.feature-6{
+    grid-area: 2 / 3 / 3 / 4;
+    border-left: 2px solid grey;
+}
+    
