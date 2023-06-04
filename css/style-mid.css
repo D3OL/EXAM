@@ -94,6 +94,9 @@ body{
     justify-content: start;
     align-items: center;
 }
+#menuToggle{
+    display: none;
+}
 .n-tittle{
     width: 600px;
     height: 5%;
