@@ -361,7 +361,7 @@ body{
 }
 #features{
     position: relative;
-    top: 3%;
+    top: 6%;
     height: 150vh;
     width: 100%;
     display: flex;
@@ -386,38 +386,36 @@ body{
     text-align: center;
 }
 .features-grid{
-    height: 145vh;
+    height: 155vh;
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(3, 33%);
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(6, 30%);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
 .feature-1{
-    grid-area: 1 / 1 / 2 / 2;
+    grid-area:  1 / 1 / 2 / 2;
     border-bottom: 2px solid grey;
 }
 .feature-2{
-    grid-area: 1 / 2 / 2 / 3;
-    border-left: 2px solid grey;
-    border-bottom: 2px solid grey;
-}
-.feature-3{
     grid-area: 2 / 1 / 3 / 2;
     border-bottom: 2px solid grey;
 }
+.feature-3{
+    grid-area:  3 / 1 / 4 / 2;
+    border-bottom: 2px solid grey;
+}
 .feature-4{
-    grid-area: 2 / 2 / 3 / 3;
-    border-left: 2px solid grey;
+    grid-area:  4 / 1 / 5 / 2;
     border-bottom: 2px solid grey;
 }
 .feature-5{
-    grid-area: 3 / 1 / 4 / 2;
+    grid-area:  5 / 1 / 6 / 2;
+    border-bottom: 2px solid grey;
 }
 .feature-6{
-    grid-area: 3 / 2 / 4 / 3;
-    border-left: 2px solid grey;
+    grid-area:  6 / 1 / 7 / 2;
 }
 #write{
     position: relative;
