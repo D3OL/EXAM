@@ -130,7 +130,7 @@ body{
 #information{
     position: relative;
     top: 8vh;
-    height: 210vh;
+    height: 190vh;
 }
 .card{
     display: flex;
@@ -166,7 +166,7 @@ body{
     background-color: grey;
 }
 .card-2{
-    height: 25%;
+    height: 30%;
 }
 .card-text-2{
     box-sizing: border-box;
@@ -179,7 +179,7 @@ body{
     height: 100%;
 }
 .card-3{
-    height: 25%;
+    height: 30%;
 }
 .card-text-3{
     box-sizing: border-box;
@@ -193,7 +193,7 @@ body{
 }
 #galery{
     position: relative;
-    top: 1%;
+    top: 2%;
     height: 60vh;
 }
 .section-header{
@@ -212,12 +212,14 @@ body{
     height: 45vh;
 }
 .carousel-slide{
-    width: 30%;
+    width: 50%;
     height: 100%;
 }
 .carousel-slide-3{
-    width: 20%;
-    height: 100%;
+    display: none;
+}
+.carousel-slide-4{
+    display: none;
 }
 .carousel-img{
     width: 100%;

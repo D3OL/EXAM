@@ -113,7 +113,7 @@ body{
     border-bottom: 1px solid gray;
 }
 .n-smedia{
-    min-width: 20px;
+    min-width: 240px;
     width: 15%;
     height: 100%;
     display: flex;
