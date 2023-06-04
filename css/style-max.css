@@ -95,6 +95,7 @@ body{
     align-items: center;
 }
 .n-tittle{
+    min-width: 600px;
     width: 35%;
     display: flex;
     justify-content: space-between;
@@ -112,6 +113,7 @@ body{
     border-bottom: 1px solid gray;
 }
 .n-smedia{
+    min-width: 20px;
     width: 15%;
     height: 100%;
     display: flex;
