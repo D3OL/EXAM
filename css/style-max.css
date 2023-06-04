@@ -260,16 +260,17 @@ body{
 #features{
     position: relative;
     top: 1%;
-    height: 150vh;
+    height: 100vh;
 }
 .features-block{
     display: flex;
     justify-content: center;
-
+    height: 100%;
 }
 .feature-ico{
-    width: 75px;
-    height: 75px;
+    min-width: 75px;
+    min-height: 75px;
+    width: 25%;
 }
 .feature{
     display: flex;
@@ -280,11 +281,11 @@ body{
     text-align: center;
 }
 .features-grid{
-    height: 145vh;
+    height: 100%;
     width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 33%);
-    grid-template-rows: repeat(2, 33%);
+    grid-template-rows: repeat(2, 50%);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
@@ -314,22 +315,24 @@ body{
     border-left: 2px solid grey;
 }
 #write{
-    height: 150vh;
+    position: relative;
+    top: 5%;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .write-block{
-    height: 135vh;
+    height:120vh;
     width: 80%;
 }
 .write-grid{
-    height: 135vh;
+    height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 5% 5% 15% 5% 5% 5% 55% 10%;
+    grid-template-rows: 10% 5% 10% 10% 10% 5% 35% 5%;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     font-size: 1em;
@@ -387,6 +390,7 @@ body{
     align-items: center;
 }
 .write-area-7{
+    min-width: 600px;
     width: 45%;
     display: flex;
     justify-content: space-between;
@@ -402,7 +406,7 @@ textarea{
 }
 footer{
     position: relative;
-    top: 3%;
+    top: 5%;
     height: 20vh;
     width: 100%;
     display: flex;
@@ -411,6 +415,7 @@ footer{
     align-items: center;
 }
 #footer-nav{
+    min-width: 500px;
     width: 25%;
     height: 10vh;
     display: flex;
@@ -419,6 +424,8 @@ footer{
 }
 .footer-m-btn{
     display: block;
+    min-width: 40px;
+    min-height: 40px;
     width: 7vh;
     height: 7vh;
     border: solid black 2px;
