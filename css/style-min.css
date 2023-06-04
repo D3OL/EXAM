@@ -361,8 +361,8 @@ body{
 }
 #features{
     position: relative;
-    top: 6%;
-    height: 150vh;
+    top: 4%;
+    height: 240vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -371,11 +371,11 @@ body{
 .features-block{
     display: flex;
     justify-content: center;
-
+    height: 100%;
 }
 .feature-ico{
-    width: 75px;
-    height: 75px;
+    min-width: 75px;
+    min-height: 75px;
 }
 .feature{
     display: flex;
@@ -386,11 +386,11 @@ body{
     text-align: center;
 }
 .features-grid{
-    height: 155vh;
+    height: 100%;
     width: 90%;
     display: grid;
     grid-template-columns: repeat(1, 100%);
-    grid-template-rows: repeat(6, 30%);
+    grid-template-rows: repeat(6, 16.6%);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
@@ -419,7 +419,7 @@ body{
 }
 #write{
     position: relative;
-    top: 3%;
+    top: 6%;
     height: 80vh;
     width: 100%;
     display: flex;
@@ -428,7 +428,7 @@ body{
 }
 .write-block{
     height: 135vh;
-    width: 80%;
+    width: 90%;
 }
 .write-grid{
     height: 100%;
@@ -438,7 +438,7 @@ body{
     grid-template-rows: 10% 5% 10% 10% 10% 5% 35% 5%;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    font-size: 2.5vh;
+    font-size: 2vh;
 }
 .write-grid > div{
     height: 100%;
@@ -508,16 +508,18 @@ textarea{
 }
 footer{
     position: relative;
-    top: 2%;
+    top: 6%;
     height: 15vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    font-size: 2vh;
 }
 #footer-nav{
-    width: 45%;
+    min-width: 300px;
+    width: 55%;
     height: 20vh;
     display: flex;
     justify-content: space-between;
