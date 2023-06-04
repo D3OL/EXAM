@@ -69,6 +69,7 @@ body{
     background-image: url(../img/tent.jpg);
 }
 .carousel-img-2{
+    display: none;
     background-image: url(../img/pot.webp);
 }
 .carousel-img-3{
@@ -188,7 +189,6 @@ body{
   transform: translate(100%, 0);
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
-
 #menu li
 {
   padding: 10px 0;
@@ -226,27 +226,35 @@ body{
 }
 #information{
     position: relative;
-    top: 8vh;
+    top: 4vh;
     height: 190vh;
 }
 .card{
     display: flex;
+    flex-direction: column;
     align-items: center;
     width: 100%;
-    font-size: 2vh;
+    font-size: 1.75vh;
 }
 .card-1{
     height: 40%;
 }
-.card-text-1{
+.card-text-sm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     box-sizing: border-box;
     text-align: start;
-    width: 50%;
+    width: 90%;
     padding: 5%;
+    order: 2;
+}
+.card-text-1{
+    height: 45%;
 }
 .card-img-1{
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 55%;
 }
 .c-btn{
     border: 1px solid grey;
@@ -254,7 +262,9 @@ body{
     text-decoration: none;
     color: grey;
     padding: 1% 3% 1% 3%;
-    font-size: 3vh;
+    text-align: center;
+    width: 60px;
+    font-size: 2vh;
     font-family: monospace;
     background-color: rgb(241, 241, 241);
 }
@@ -266,27 +276,21 @@ body{
     height: 30%;
 }
 .card-text-2{
-    box-sizing: border-box;
-    text-align: start;
-    width: 50%;
-    padding: 5%;
+    height: 50%;
 }
 .card-img-2{
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
 }
 .card-3{
     height: 30%;
 }
 .card-text-3{
-    box-sizing: border-box;
-    text-align: start;
-    width: 50%;
-    padding: 5%;
+    height: 50%;
 }
 .card-img-3{
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
 }
 #galery{
     position: relative;
@@ -309,8 +313,11 @@ body{
     height: 45vh;
 }
 .carousel-slide{
-    width: 50%;
+    width: 100%;
     height: 100%;
+}
+.carousel-slide-2{
+    display: none;
 }
 .carousel-slide-3{
     display: none;
