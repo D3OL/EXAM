@@ -268,8 +268,8 @@ body{
 
 }
 .feature-ico{
-    width: 15%;
-    height: 15%;
+    width: 75px;
+    height: 75px;
 }
 .feature{
     display: flex;
