@@ -123,9 +123,12 @@ body{
     display: block;
     width: 3vh;
     height: 3vh;
+    background-color: white;
+    border-radius: 45%;
 }
 .m-btn:hover{
-    box-shadow:inset 0px 0px 15px 0px rgba(0,0,0,0.75), 0px 0px 15px 0px rgba(0,0,0,0.75);
+    box-shadow:inset 0px 0px 15px 0px rgba(255, 255, 255, 0.75), 0px 0px 15px 0px rgba(255, 255, 255, 0.75);
+    filter: invert(100%);
     background-size: 70%;
     border-radius: 50%;
     transform: scale(1.2);
@@ -273,8 +276,10 @@ body{
 
 }
 .feature-ico{
-    width: 75px;
-    height: 75px;
+    min-width: 66px;
+    min-height: 66px;
+    width: 24%;
+    height: 24%;
 }
 .feature{
     display: flex;
