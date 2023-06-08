@@ -227,7 +227,7 @@ body{
     left: 0%;
     width: 100%;
     height: 45vh;
-    display: none;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     opacity: 0;
@@ -259,6 +259,8 @@ body{
 .carousel-txt{
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
+    padding: 10%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -281,11 +283,13 @@ body{
     background-color: white;
     color: black;
 }
-.carousel-img:hover .carousel-txt, .arrows{
-    display: flex;
+.carousel-img:hover .carousel-txt{
     opacity: 1;
     cursor: pointer;
     background-color: rgba(240, 248, 255, 0.226);
+}
+.carousel:hover > .arrows{ 
+    opacity: 0.8;
 }
 #features{
     position: relative;
