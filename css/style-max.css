@@ -302,8 +302,8 @@ body{
     height: 100%;
 }
 .feature-ico{
-    min-width: 75px;
-    min-height: 75px;
+    min-width: 100px;
+    min-height: 80px;
     width: 26%;
     height: 26%;
 }
