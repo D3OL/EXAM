@@ -78,6 +78,12 @@ body{
 .carousel-img-4{
     background-image: url(../img/string.webp);
 }
+.carousel-ico-1{
+    background-image: url(../ico/arrow-left.png);
+}
+.carousel-ico-2{
+    background-image: url(../ico/arrow-right.png);
+}
 #main-header{
     width: 100%;
     position: fixed;
@@ -307,31 +313,46 @@ body{
     display: flex;
     height: 85vh;
 }
+.arrows{
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+}
+.arrow{
+    width: 50px;
+    height: 50px;
+}
 .carousel{
     display: flex;
     background-color: grey;
     height: 45vh;
 }
-.carousel-slide{
+.carousel-img-1{
     width: 100%;
-    height: 100%;
 }
-.carousel-slide-2{
+.carousel-img-2{
     display: none;
 }
-.carousel-slide-3{
+.carousel-img-3{
     display: none;
 }
-.carousel-slide-4{
+.carousel-img-4{
     display: none;
 }
 .carousel-img{
-    width: 100%;
     height: 100%;
 }
 .carousel-txt{
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
+    padding: 10%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -354,10 +375,13 @@ body{
     background-color: white;
     color: black;
 }
-.carousel-txt:hover{
-    cursor: pointer;
+.carousel-img:hover .carousel-txt{
     opacity: 1;
+    cursor: pointer;
     background-color: rgba(240, 248, 255, 0.226);
+}
+.carousel:hover > .arrows{ 
+    opacity: 0.8;
 }
 #features{
     position: relative;
