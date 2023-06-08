@@ -1,0 +1,7 @@
+Посилання:
+
+-сайт: https://t0gu.000webhostapp.com/
+
+-git: https://github.com/D3OL/EXAM
+
+!проблеми з сервером(в FileZilla) не можу оновити файл(style-mid.css)

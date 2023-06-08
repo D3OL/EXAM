@@ -377,6 +377,11 @@ body{
     display: flex;
     align-items: center;
 }
+.write-grid > label{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 .write-input{
     font-size: 1em;
     width: 90%;
@@ -411,6 +416,11 @@ body{
 }
 .write-area-9{
     grid-area: 5 / 1 / 6 / 4; 
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-size: 2vh;
+    padding-left: 1%;
 }
 .write-area-10{
     grid-area: 6 / 1 / 7 / 2; 

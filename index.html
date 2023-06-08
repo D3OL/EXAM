@@ -156,12 +156,12 @@
         <header class="section-header"><h1>Write to us</h1></header>
         <article class="write-block">
             <div class="write-grid">
-                <div class="write-area-1"><p>Name:</p></div>
-                <div class="write-area-2"><p>Email:</p></div>
-                <div class="write-area-3"><p>Phone:</p></div>
-                <input type="text" class="write-area-4 write-input">
-                <input type="text" class="write-area-5 write-input">
-                <input type="text" class="write-area-6 write-input">
+                <label for="name" class="write-area-1"><p>Name:</p></label>
+                <label for="email" class="write-area-2"><p>Email:</p></label>
+                <label for="phone" class="write-area-3"><p>Phone:</p></label>
+                <input id="name" class="write-area-4 write-input">
+                <input id="email" class="write-area-5 write-input">
+                <input id="phone" class="write-area-6 write-input">
                 <div class="write-area-7">
                     <p>Contact me via:</p>
                     <input type="radio" id="html" name="fav_language" value="HTML">
@@ -172,13 +172,19 @@
                     <label for="javascript">Telegram</label>
                 </div>
                 <div class="write-area-8"><p>Topic:</p></div>
-                <input type="comment" class="write-area-9 write-input-l"></textarea>
+                <select value="Post my story" class="write-area-9 write-input-l">
+                    <option value="o1">Post my story</option>
+                    <option value="o2">Else</option>
+                    <option value="o3">Else</option>
+                    <option value="o4">Else</option>
+                    <option value="o5">Else</option>
+                </select>
                 <div class="write-area-10"><p>Mesagge:</p></div>
                 <textarea type="text" class="write-area-11 write-input-l"></textarea>
                 <div class="write-area-12">
                     <div class="remeber-me">
                         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                        <label for="vehicle1">Remember me</label>
+                        <label for="vehicle1">I am human</label>
                     </div>
                     <a href="" class="c-btn">SEND</a>
                 </div>
